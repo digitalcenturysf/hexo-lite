@@ -8,51 +8,69 @@ View more themes from this author: https://digitalcenturysf.com
 ## Demo and Documentation
 * **Demo** : https://digitalcenturysf.com/demo/?theme=hexo-wp
 * **Documentation** : https://digitalcenturysf.com/docs/hexo-wp/
+* **Support Forum** : https://wordpress.org/support/theme/viktor-lite
 
+
+## Table of Themes
+
+| [<img align="left" width="80" height="80" src="/img/thumb-viktor.jpg">](https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/"> Viktor Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-hexo.jpg">](https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/"> Hexo Lite - Free Wordpress Theme </a></p> |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
+| [<img align="left" width="80" height="80" src="/img/thumb-chili.jpg">](https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/"> Chili Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-envestpro.jpg">](https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/) <p align="left"><a href="https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/"> EnvestPro Lite - Free Wordpress Theme </a></p> |
 
 ## Installation 
 
-1. Primary:  
- = Login to your wp-admin account and go to Appearance -> Themes.  
- = Select "Install" tab and click on the "Upload" link.  
- = Select "hexo-lite.zip" and click on "Install Now" button.  
- = In case of errors, use an alternate method.  
+1. Via The WordPress Dashboard (Easier):   
+	a) Login to your wp-admin account and go to Appearance -> Themes.   
+
+	![](/img/i1.png)  
+
+	b) Select "Add New" button and then click on the "Upload Theme" button.    
+
+	![](/img/i2.png)   
+
+	![](/img/i3.png)  
+	  
+	c) Click on the Browse button and find the viktor-lite.zip file  and then click on the "Install" button.    
+
+	![](/img/i4.png)  
+	
+	d) After the theme has successfully uploaded click Activate and you're done!         
+
+	![](/img/i5.png)  
+	
+
  
-2. Alternate:  
- = Unzip the template file (hexo-lite.zip) that you have downloaded.  
- = Upload the entire folder (hexo-lite) to your server via FTP and place it in the /wp-content/themes/folder.  
- = Do not change the directory name.  
- = The template files should be there now: /wp-content/themes/hexo-lite/index.php (example).  
- 
-3. Log into your WP admin panel and click on "Appearance". Go to "Themes" tab.  
+2. Via FTP:  
+	* Unzip the package you downloaded, inside you will find a file called viktor-lite.zip   
+	* Login to your web server via FTP and browse to wp-content/themes and upload the Viktor-lite folder here    
+	* Login to your WordPress dashboard and go to Appearance > Themes, the Viktor theme will be visible, click Activate and you're done!    
+  
+3. Theme Customizer	Options:  
 
-4. Now click on "Hexo Lite" to activate the theme.  
+	* Basic Settings:  
+        You can manage here site logo, favicon, banner image, color and text.	  
 
-5. Theme Customizer	Options:  
-
-	a) Basic Settings:
-           You can manage here site logo, favicon, banner image, color and text.	  
-
-	b) Home Page Settings:   
-		i)		Go to Page --> Add New   
-		ii)		Page Attributes --> Select "Home Page".   
-		iii)	Our path to Perfection : You can set home page title, images, description and background image.    
-        iv)		Blog Section : you can select category of posts and add title, description of posts slider.  
-		v)		For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.  
+	* Home Page Settings:     
+		* Go to Page --> Add New   
+		* Page Attributes --> Select "Home Page".   
+		* Our path to Perfection : You can set home page title, images, description and background image.    
+        * Blog Section : you can select category of posts and add title, description of posts slider.  
+		* For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.  
                  
-7. How to setup custom menu ?  
+4. How to setup custom menu ?  
 
-You can change the content of the top right menu by create your own.  
+	You can change the content of the top right menu by create your own.  
 
-Create your custom menu :  
+	Create your custom menu :  
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Add content (pages, ...) to the menu and save.  
+	* In your admin panel, go to Appearance > Menu.  
 
-Attach the custom menu to the theme :  
+	* Add content (pages, ...) to the menu and save.  
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Create a Menu and set checked "Main Menu" to display header menu.  
+	Attach the custom menu to the theme :  
+
+	* In your admin panel, go to Appearance > Menu.  
+	* Create a Menu and set checked "Main Menu" to display header menu.  
  	
 
 ## Copyright
@@ -73,59 +91,17 @@ GNU General Public License for more details.
 
 ## Theme License
 The **Hexo Lite WordPress theme** is 100% GPLv2. See headers of files for further details.[GNU GPL v2.0 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
-
-## MeanMenu License
-MeanMenu, Copyright (C) 2012-2014 Chris Wharton @ MeanThemes
-MeanMenu is available under the GNU General Public License
-Source: https://github.com/meanthemes/meanMenu
-
-
-## Modernizr License
-Modernizr, Copyright 2009-2018 Faruk Ates, Paul Irish, Alex Sexton
-Modernizr is available under the the BSD and MIT licenses
-Source: www.modernizr.com/license/
  
 
-## Font Awesome License
-Font Awesome icons, Copyright Dave Gandy
-License: SIL Open Font License
-Source: http://fontawesome.io/
-
- 
-## Bootstrap License
-Bootstrap, Copyright 2011-2016 Twitter
-Bootstrap is released under the MIT license
-Source: http://getbootstrap.com
-
-
-## Google Fonts License
-http://fonts.googleapis.com/css?family=Droid
-http://fonts.googleapis.com/css?family=Raleway
-http://fonts.googleapis.com/css?family=Open+Sans
-They are under SIL Open Font.
-
-
-## Theme screenshot images
+## Images
 CC0-licensed (GPL-compatible) images from https://www.pexels.com/
 
-## Theme Slider Images
-	- https://www.pexels.com/photo/apartment-architecture-balcony-bricks-139111/ 
-
-## Theme Post Images
-	- https://www.pexels.com/photo/building-metal-house-architecture-101808/
-	- https://www.pexels.com/photo/home-real-estate-106399/
-	- https://www.pexels.com/photo/appliances-architecture-ceiling-chairs-534151/
-	- https://www.pexels.com/photo/architectural-design-architecture-blue-sky-bungalow-462358/
-	- https://www.pexels.com/photo/architecture-balcony-building-clouds-534182/
-	- https://www.pexels.com/photo/white-painted-house-beside-green-grass-lawn-1030555/
-	- https://www.pexels.com/photo/architecture-clouds-estate-exterior-280222/
-	- https://www.pexels.com/photo/gray-2-storey-house-at-daytime-164516/
-	- https://www.pexels.com/photo/modern-building-against-sky-323780/
+	- https://www.pexels.com/photo/apartment-architecture-balcony-bricks-139111/  
+	- https://www.pexels.com/photo/building-metal-house-architecture-101808/ 
 
 
 ## Changelog 
   
-= July 05 2018 - 1.0.0 =
-* Theme released
-  
+### 1.0.5
+* Theme released (approved wp.org)
+
