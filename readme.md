@@ -6,14 +6,14 @@
 View more themes from this author: https://digitalcenturysf.com
 
 ## Demo and Documentation
-* **Demo** : https://digitalcenturysf.com/demo/?theme=hexo-wp
+* **Demo** : https://digitalcenturysf.com/demo/?theme=hexo-wp/
 * **Documentation** : https://digitalcenturysf.com/docs/hexo-wp/
-* **Support Forum** : https://wordpress.org/support/theme/viktor-lite
+* **Support Forum** : https://wordpress.org/support/theme/hexo-lite/
 
 
 ## Table of Themes
 
-| [<img align="left" width="80" height="80" src="/img/thumb-viktor.jpg">](https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/"> Viktor Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-hexo.jpg">](https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/"> Hexo Lite - Free Wordpress Theme </a></p> |
+| [<img align="left" width="80" height="80" src="/img/thumb-hexo.jpg">](https://digitalcenturysf.com/templates/hexo-premium-corporate-business-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/hexo-premium-corporate-business-theme/"> hexo Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-hexo.jpg">](https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/hexo-premium-realestate-theme/"> Hexo Lite - Free Wordpress Theme </a></p> |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
 | [<img align="left" width="80" height="80" src="/img/thumb-chili.jpg">](https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/) <p align="left"><a href="https://digitalcenturysf.com/templates/chili-multi-purpose-restaurant-theme/"> Chili Lite - Free Wordpress Theme </a></p> | [<img align="left" width="80" height="80" src="/img/thumb-envestpro.jpg">](https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/) <p align="left"><a href="https://digitalcenturysf.com/templates/envest-pro-business-multipurpose-template/"> EnvestPro Lite - Free Wordpress Theme </a></p> |
 
@@ -30,7 +30,7 @@ View more themes from this author: https://digitalcenturysf.com
 
 	![](/img/i3.png)  
 	  
-	c) Click on the Browse button and find the viktor-lite.zip file  and then click on the "Install" button.    
+	c) Click on the Browse button and find the hexo-lite.zip file  and then click on the "Install" button.    
 
 	![](/img/i4.png)  
 	
@@ -41,9 +41,9 @@ View more themes from this author: https://digitalcenturysf.com
 
  
 2. Via FTP:  
-	* Unzip the package you downloaded, inside you will find a file called viktor-lite.zip   
-	* Login to your web server via FTP and browse to wp-content/themes and upload the Viktor-lite folder here    
-	* Login to your WordPress dashboard and go to Appearance > Themes, the Viktor theme will be visible, click Activate and you're done!    
+	* Unzip the package you downloaded, inside you will find a file called hexo-lite.zip   
+	* Login to your web server via FTP and browse to wp-content/themes and upload the hexo-lite folder here    
+	* Login to your WordPress dashboard and go to Appearance > Themes, the hexo theme will be visible, click Activate and you're done!    
   
 3. Theme Customizer	Options:  
 
