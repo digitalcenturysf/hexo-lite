@@ -1,64 +1,66 @@
-# Hexo Lite v1.1.3
-![Hexo Lite - Free Wordpress Theme](/screenshot.png)
-
-> Are you looking for a suitable real estate template for your business or clients? Hexo Properties WordPress is a modern WordPress theme designed for real estate agents, brokers, agencies, organizations, and so on. This real estate theme is designed using high quality PSD images and latest HTML5 and CSS3 standards. This WordPress theme includes all of the functionalities needed to kick-off a real estate business.
-
-View more themes from this author: https://digitalcenturysf.com
-
-## Demo and Documentation
-* **Demo** : https://digitalcenturysf.com/demo/?theme=hexo-wp
-* **Documentation** : https://digitalcenturysf.com/docs/hexo-wp/
+=== hexo Lite ===  
+Contributors: DigitalCenturySF
+Requires at least: WordPress 4.0
+Tested up to: 4.9.8
+Version: 1.1.4
+License: GPLv2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, news, two-columns, right-sidebar,  custom-header, custom-menu, editor-style, featured-images, flexible-header, sticky-post, translation-ready 
 
 
-## Installation 
+== Description ==
 
-1. Primary:  
- = Login to your wp-admin account and go to Appearance -> Themes.  
- = Select "Install" tab and click on the "Upload" link.  
- = Select "hexo-lite.zip" and click on "Install Now" button.  
- = In case of errors, use an alternate method.  
+Hexo Lite is a clean, creative, elegant, fun, colorful, powerful, motivational, simple, and stylish WordPress theme. Hexo Lite is designed for all type of corporations such as banking, finance, consulting, management, real estate, insurance, legal & law, startup, venture capital, technology, and so on. It is a clean, super flexible, fast in loading, bootstrap based, mobile responsive and modern looking premium quality WordPress theme. It can be used for any business or personal website relating to business, technology, travel, food, people, architecture, health, sports, animals, modern, design, corporate, vector, nature, commerical, holiday, advertising, game, presentation, computer, marketing, building, ecommerce, internet, office, company, digital, portfolio, multipurpose, transportation, fitness, weather, disco, valentine, cafe, sci-fi, agriculture, relaxation, mountain, baby, television, earth, church, cinema, furniture, hospital, healthcare, infographic, vegetarian, smartphone, iphone, android, hip hop, seo, night club, hotel, college. For more information, visit our website https://www.digitalcenturysf.com 
+
+== Installation == 
+
+1. Primary:
+ = Login to your wp-admin account and go to Appearance -> Themes.
+ = Select "Install" tab and click on the "Upload" link.
+ = Select "hexo-lite.zip" and click on "Install Now" button.
+ = In case of errors, use an alternate method.
  
-2. Alternate:  
- = Unzip the template file (hexo-lite.zip) that you have downloaded.  
- = Upload the entire folder (hexo-lite) to your server via FTP and place it in the /wp-content/themes/folder.  
- = Do not change the directory name.  
- = The template files should be there now: /wp-content/themes/hexo-lite/index.php (example).  
+2. Alternate:
+ = Unzip the template file (hexo-lite.zip) that you have downloaded.
+ = Upload the entire folder (hexo-lite) to your server via FTP and place it in the /wp-content/themes/folder.
+ = Do not change the directory name.
+ = The template files should be there now: /wp-content/themes/hexo-lite/index.php (example).
  
-3. Log into your WP admin panel and click on "Appearance". Go to "Themes" tab.  
+3. Log into your WP admin panel and click on "Appearance". Go to "Themes" tab.
 
-4. Now click on "Hexo Lite" to activate the theme.  
+4. Now click on "hexo Lite" to activate the theme.
 
-5. Theme Customizer	Options:  
+5. Theme Customizer	Options:	
 
 	a) Basic Settings:
-           You can manage here site logo, favicon, banner image, color and text.	  
+           You can manage here site logo, favicon, banner image, color and text.	
 
-	b) Home Page Settings:   
-		i)		Go to Page --> Add New   
-		ii)		Page Attributes --> Select "Home Page".   
-		iii)	Our path to Perfection : You can set home page title, images, description and background image.    
-        iv)		Blog Section : you can select category of posts and add title, description of posts slider.  
-		v)		For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.  
+	b) Home Page Settings:
+		i)		Go to Page --> Add New 
+		ii)		Page Attributes --> Select "Home Page". 
+		iii)	Our path to Perfection : You can set home page title, images, description and background image.
+        iv)		Blog Section : you can select category of posts and add title, description of posts slider.
+		v)		For set home page : Go to Settings	-->	Front page displays	--> Checed  "A static page (select below)" --> Front page --> select your Page.
                  
-7. How to setup custom menu ?  
+7. How to setup custom menu ?
 
-You can change the content of the top right menu by create your own.  
+You can change the content of the top right menu by create your own.
 
-Create your custom menu :  
+Create your custom menu :
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Add content (pages, ...) to the menu and save.  
+i. In your admin panel, go to Appearance > Menu.
+ii. Add content (pages, ...) to the menu and save.
 
-Attach the custom menu to the theme :  
+Attach the custom menu to the theme :
 
-i. In your admin panel, go to Appearance > Menu.  
-ii. Create a Menu and set checked "Main Menu" to display header menu.  
- 	
+i. In your admin panel, go to Appearance > Menu.
+ii. Create a Menu and set checked "Main Menu" to display header menu.
+ 		 
 
-## Copyright
+== Copyright ==
 
-Hexo Lite WordPress Theme, Copyright (C) 2018, DigitalCenturySF
-Hexo Lite is distributed under the terms of the GNU GPL
+hexo Lite WordPress Theme, Copyright (C) 2018, DigitalCenturySF
+hexo Lite is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -69,6 +71,9 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+
+hexo Lite bundles the following third-party resources:
 
 
 ## Theme License
@@ -104,28 +109,11 @@ http://fonts.googleapis.com/css?family=Droid
 http://fonts.googleapis.com/css?family=Raleway
 http://fonts.googleapis.com/css?family=Open+Sans
 They are under SIL Open Font.
+ 
+ 
+ == Screenshot Images == 
 
-
-## Theme screenshot images
-CC0-licensed (GPL-compatible) images from https://www.pexels.com/
-
-## Theme Slider Images
-	- https://www.pexels.com/photo/apartment-architecture-balcony-bricks-139111/ 
-
-## Theme Post Images
-	- https://www.pexels.com/photo/building-metal-house-architecture-101808/
-	- https://www.pexels.com/photo/home-real-estate-106399/
-	- https://www.pexels.com/photo/appliances-architecture-ceiling-chairs-534151/
-	- https://www.pexels.com/photo/architectural-design-architecture-blue-sky-bungalow-462358/
-	- https://www.pexels.com/photo/architecture-balcony-building-clouds-534182/
-	- https://www.pexels.com/photo/white-painted-house-beside-green-grass-lawn-1030555/
-	- https://www.pexels.com/photo/architecture-clouds-estate-exterior-280222/
-	- https://www.pexels.com/photo/gray-2-storey-house-at-daytime-164516/
-	- https://www.pexels.com/photo/modern-building-against-sky-323780/
-
-
-## Changelog 
-  
-= July 05 2018 - 1.0.0 =
-* Theme released
+Banner Image, Copyright Pixabay  
+License: CC0 1.0 Universal (CC0 1.0) 
+Source: https://www.pexels.com/photo/skyscrapers-in-city-against-clear-sky-316137/
   

@@ -65,9 +65,6 @@ $hexo_lite_options = new Hexo_Lite_Options();
             </header>
             <!-- Header end -->     
  
-            <?php 
-                hexo_lite_slider_temp(); 
-                hexo_lite_banner_temp(); 
-            ?>
+            <?php hexo_lite_banner_temp(); ?>
 
     <div id="content" class="site-content">

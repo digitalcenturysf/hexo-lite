@@ -96,26 +96,9 @@ function hexo_lite_setup() {
      */
     add_editor_style( array( 'css/editor-style.css', hexo_lite_fonts_url() ) );
 
-
-    // redirecto to about viktro page
-    hexo_lite_redirect_to();
-
-
 }
 endif;
 add_action( 'after_setup_theme', 'hexo_lite_setup' );
-
-
-// redirect function of hexo
-function hexo_lite_redirect_to(){ 
-    global $pagenow;
-
-    if ( is_admin() && 'themes.php' == $pagenow && isset( $_GET['activated'] ) ) {
-
-        wp_redirect(admin_url("themes.php?page=hexo-about")); 
-        
-    }   
-}
 
 
 /**
@@ -191,23 +174,14 @@ function hexo_lite_scripts() {
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
     }
-
-    $hexo_script_params = array( 
-       'autoplay' => $hexo_lite_option->hexo_lite_slider_autoplay(), 
-       'speed' => $hexo_lite_option->hexo_lite_slider_speed(),
-       'slidespeed' => $hexo_lite_option->hexo_lite_sliders_speed(),
-       'seffects' => $hexo_lite_option->hexo_lite_slider_effect() 
-    );
-    wp_localize_script( 'hexo-lite-main', 'scriptParams', $hexo_script_params );
+ 
 }
 add_action( 'wp_enqueue_scripts', 'hexo_lite_scripts' );
   
 
 /**
  * Included Files
- */ 
-// Load Hexo Framework Functions . 
-require HEXO_LITE_INCF . 'framework-config.php';  
+ */  
 // require HEXO_LITE_INCF . 'hexo-framework-functions.php';  
 //Implement the Custom Header feature.
 require HEXO_LITE_INCF . 'custom-header.php';
@@ -218,17 +192,11 @@ require HEXO_LITE_INCF . 'extras.php';
 //Customizer additions.
 require HEXO_LITE_INCF . 'customizer.php';
 // Load Jetpack compatibility file.
-require HEXO_LITE_INCF . 'jetpack.php';
-// Load slider file
-require HEXO_LITE_INCF . 'slider.php';
+require HEXO_LITE_INCF . 'jetpack.php'; 
 // Load banner file
 require HEXO_LITE_INCF . 'banner.php';
 // Load hexo Framework Functions Files. 
-require HEXO_LITE_INCF . 'hexo-function.php';  
-// Load Required plugins
-require_once HEXO_LITE_INCF . '/plugins/class-tgm-plugin-activation.php';
-// Theme info
-require get_template_directory() . '/inc/upsell/theme-about.php';
+require HEXO_LITE_INCF . 'hexo-function.php';   
 
 // main menu
 function hexo_lite_main_menu(){
@@ -286,7 +254,7 @@ function hexo_lite_breadcrumb(){
             $hexo_lite_cat_tzx = $hexo_lite_cat_tzx->name;
             echo esc_html($hexo_lite_cat_tzx);
         }else{
-            echo esc_html(get_the_time('F, Y'));
+            echo esc_html(get_the_time(get_option( 'date_format' )));
         }
     }
 
@@ -460,28 +428,4 @@ function hexo_lite_excerpt_max_charlength($charlength) {
         echo $excerpt;
     }
 }
- 
-/**
- * required pluigns
- */  
-add_action( 'tgmpa_register', 'hexo_lite_recommend_plugin' );
-function hexo_lite_recommend_plugin() {
-
-    $plugins[] = array(
-            'name'               => esc_html__('Redux Framework','hexo-lite'),
-            'slug'               => 'redux-framework',
-            'required'           => false,
-    ); 
-    tgmpa( $plugins);
-}
-
-
-/**
- * Remove plugin flag from redux. Get rid of redirect
- * 
- */
-add_action( 'redux/construct', 'hexo_lite_remove_as_plugin_flag' );
-function hexo_lite_remove_as_plugin_flag() {
-    ReduxFramework::$_as_plugin = false;
-}
-
+  

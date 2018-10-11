@@ -21,7 +21,7 @@
         <div class="blog-content-area">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <div class="informations">
-                <p><?php the_time('F j, Y'); ?></p> 
+                <p><?php the_time(get_option( 'date_format' )); ?></p> 
             </div>         
             <p><?php hexo_lite_excerpt_max_charlength(160); ?></p>                                
         </div>

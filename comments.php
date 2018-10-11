@@ -26,14 +26,27 @@ if ( post_password_required() ) {
 	<?php
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) : ?>
-		<h3><?php
-				printf( 
-					/* translators: 1: number of comments, 2: post title */
-					_nx( '01 Comment', '0%1$s Comments', get_comments_number(), 'comments title', 'hexo-lite' ),
-					number_format_i18n( get_comments_number() ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			?></h3>
+		<h3>
+           	<?php
+               	$comments_number = get_comments_number();
+               	if ( '1' === $comments_number ) {
+                       	/* translators: %s: post title */
+                       	printf( esc_attr_x( '01 Comment', 'comments title', 'hexo-lite' ), get_the_title() );
+               	}else {
+                   	printf(
+                       	/* translators: 1: number of comments, 2: post title */
+                       	esc_html(_nx(
+                           	'1 Comments', 
+							'%d Comments', 
+                           	$comments_number,
+                           	'comments title',
+                           	'hexo-lite'
+                       	)),
+                       	esc_html(number_format_i18n( $comments_number )),
+                       	get_the_title()
+                   	);
+               	}
+            ?></h3>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?> 
 				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'hexo-lite' ) ); ?></div>

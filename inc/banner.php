@@ -9,9 +9,7 @@
  * @package hexo_lite
  */ 
 function hexo_lite_banner_temp(){
-global $hexo_lite;
-$banner_enable = $hexo_lite['front-pg-slider'];
-if(!is_front_page() || (is_front_page() && '0' ==$banner_enable)):
+global $hexo_lite; 
 ?>
     <!-- Page Header Section Start Here -->
     <div class="page-header-area">
@@ -32,5 +30,4 @@ if(!is_front_page() || (is_front_page() && '0' ==$banner_enable)):
         </div>
     </div>
     <!-- Page Header Section End Here --> 
-<?php endif; 
-}?>
+<?php } ?>

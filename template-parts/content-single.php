@@ -16,7 +16,7 @@
             <h3><?php the_title() ?></h3>                            
             <div class="informations">
                 <ul>
-                    <li><i class="fa fa-calendar" aria-hidden="true"></i><?php the_time('m F, Y'); ?></li>
+                    <li><i class="fa fa-calendar" aria-hidden="true"></i><?php the_time(get_option( 'date_format' )); ?></li>
                     <li><i class="fa fa-user" aria-hidden="true"></i><?php esc_html_e('By Admin: ','hexo-lite');  the_author(); ?> </li>
                     <li><i class="fa fa-comments-o" aria-hidden="true"></i> <?php echo esc_html__('Comments','hexo-lite'); ?>: <?php comments_popup_link( esc_html__('00','hexo-lite'), esc_html__('01','hexo-lite'), esc_html__('0%','hexo-lite'), 'comments-link', esc_html__('Comments off','hexo-lite')); ?></li>
                 </ul>
