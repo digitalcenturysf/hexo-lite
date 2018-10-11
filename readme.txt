@@ -115,5 +115,5 @@ They are under SIL Open Font.
 
 Banner Image, Copyright Pixabay  
 License: CC0 1.0 Universal (CC0 1.0) 
-Source: https://www.pexels.com/photo/skyscrapers-in-city-against-clear-sky-316137/
+Source: https://www.pexels.com/photo/architecture-balcony-building-building-exterior-271699/
   
