@@ -17,7 +17,7 @@ get_header(); ?>
 	            <div class="row">
  
 	              <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 acurate">
-	                <div class="all-blog-content-area">
+	                <div <?php if ( have_posts() ){ ?> id="masonry-loop" <?php } ?> class="all-blog-content-area">
 						<?php
 						if ( have_posts() ) :   while ( have_posts() ) : the_post(); 
 								get_template_part( 'template-parts/content' );
@@ -25,9 +25,9 @@ get_header(); ?>
 							endwhile; ?>
 				               
 							<?php 
-					else :
-						get_template_part( 'template-parts/content', 'none' ); 
-					endif; ?>
+						else :
+							get_template_part( 'template-parts/content', 'none' ); 
+						endif; ?>
 
 	                </div> 
 	                <div class="pagination-area">
