@@ -110,10 +110,8 @@ http://fonts.googleapis.com/css?family=Raleway
 http://fonts.googleapis.com/css?family=Open+Sans
 They are under SIL Open Font.
  
- 
- == Screenshot Images == 
 
-Banner Image, Copyright Pixabay  
+Screenshot Image, Copyright Pixabay  
 License: CC0 1.0 Universal (CC0 1.0) 
-Source: https://www.pexels.com/photo/architecture-balcony-building-building-exterior-271699/
+Source: https://www.pexels.com/photo/road-landscape-mountains-nature-63324/
   

@@ -36,8 +36,8 @@ if ( post_password_required() ) {
                    	printf(
                        	/* translators: 1: number of comments, 2: post title */
                        	esc_html(_nx(
-                           	'1 Comments', 
-							'%d Comments', 
+                           	'%1$s Comments', 
+							'%1$s Comments', 
                            	$comments_number,
                            	'comments title',
                            	'hexo-lite'

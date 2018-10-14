@@ -229,7 +229,7 @@ if(is_user_logged_in()):
     function hexo_lite_default_menu() {
         ?>
         <ul id="nav" class="text-right">                  
-            <li><a href="<?php echo admin_url('nav-menus.php'); ?>"><?php esc_html_e( 'Add Menu', 'hexo-lite' ); ?></a></li>
+            <li><a href="<?php echo esc_url(admin_url('nav-menus.php')); ?>"><?php esc_html_e( 'Add Menu', 'hexo-lite' ); ?></a></li>
         </ul>
         <?php
     }
@@ -350,7 +350,9 @@ function hexo_lite_comments($comment, $args, $depth) { ?>
       </a>
       <div class="pull-left comments-body">
         <h4 class="media-heading"><?php comment_author() ?></h4>
-        <p><?php printf( esc_html__( '%1$s | %2$s','hexo-lite' ), get_comment_date( '', $comment ),  get_comment_time() ); ?></p>
+        <p><?php 
+        /* translators: comment date */
+        printf( esc_html__( '%1$s | %2$s','hexo-lite' ), get_comment_date( '', $comment ),  get_comment_time() ); ?></p>
         <?php if ($comment->comment_approved == '0') : ?>
             <p><em><?php esc_html_e('Your comment is awaiting moderation.','hexo-lite'); ?></em></p>
         <?php endif; ?>
@@ -419,13 +421,13 @@ function hexo_lite_excerpt_max_charlength($charlength) {
         $exwords = explode( ' ', $subex );
         $excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
         if ( $excut < 0 ) {
-            echo mb_substr( $subex, 0, $excut );
+            echo esc_textarea(mb_substr( $subex, 0, $excut ));
         } else {
-            echo $subex;
+            echo esc_textarea($subex);
         }
         echo '[...]';
     } else {
-        echo $excerpt;
+        echo esc_textarea($excerpt);
     }
 }
   
